@@ -9,8 +9,7 @@ import Profile from './Profile';
 
 function App() {
     return (
-      
-    <div className="App">
+    <div>
       
     <Routes>
         <Route path="/" element={ <Dashboard/> } />
