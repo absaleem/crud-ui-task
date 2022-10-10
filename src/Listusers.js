@@ -63,7 +63,7 @@ const handleProceed = (id,status) => {
        <td>{row.courses}</td>
        <td>
           <Button onClick={(e)=>handleProceed(row.id,1)}>Update</Button>&nbsp;
-          <Button onClick={(e)=>handleProceed(row.id,2)}>View profile</Button>&nbsp;
+          <Button onClick={(e)=>handleProceed(row.id,2)}>Profile</Button>&nbsp;
            <Button onClick={()=>onDeleteData(row.id)}>Delete</Button>
        </td>
        </tr>

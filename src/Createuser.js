@@ -96,7 +96,7 @@ const handleSubmit= async (e)=>{
 
       <Form.Group className="col-md-6"  controlId="exampleForm.ControlInput3">
         <Form.Label>User age</Form.Label>
-        <Form.Control size="lg" type="text" placeholder="age" name="age" value={formData.age} onChange={(e) => handleChange(e)}  required /> <span style={{color:"red"}}> {formData.error.age}</span><br/>
+        <Form.Control type="text" placeholder="age" name="age" value={formData.age} onChange={(e) => handleChange(e)}  required /> <span style={{color:"red"}}> {formData.error.age}</span><br/>
       </Form.Group>
 
       <Form.Group className="col-md-6"  controlId="exampleForm.ControlInput4" name="gender">
